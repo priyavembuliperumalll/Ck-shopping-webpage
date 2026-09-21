@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color:rgb(148, 147, 143);
+    color:black;
+    padding: 15px;
+}
+.header h1,ul,li{
+    display: inline;
+}
+.header h1{
+    color: black;
+    font-family:sans-serif ;
+}
+
+.header ul{
+    margin-left: 50%;
+
+}
+.header li{
+    color: aliceblue;
+    margin-right: 20px;
+}
+.header li:hover{
+    color:rgb(209, 188, 120);
+    cursor: pointer;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 350px;
+    border-radius: 25px;
+    border:2px solid;
+    padding: 12px;
+    width: 60%;
+    background-color: rgb(247, 244, 244);
+}
+
+.search-icon {
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+.searchbar input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.jk{
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(53, 17, 17);
+    text-align: center;
+    background-color:rgb(145, 145, 140);
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product{
+     width: 220px;
+    text-align: center;
+    border: 1px solid #333131;
+    padding: 15px;
+    border-radius: 10px;
+        }
+
+button {
+    background-color:orangered;
+    color:bisque;
+    padding:10px;
+    margin-left: 25px;
+}
+button:hover{
+    background-color:rgb(228, 179, 119);
+}
+.about{
+    text-align: center;
+}
+.services h1{
+    text-align: center;
+    font-size: larger;
+    font-family: georgia, serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.services ul{
+    display:block;
+    list-style-type: disc;
+
+}
+.services li{
+    display: block;
+    color: black;
+    margin: 10px 0;
+}
+.reviews h2{
+    text-align: center;
+    font-size: larger;
+    font-family: georgia,serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.review-box{
+    width: 500px;
+    margin:20px 40px;
+    border:2px solid;
+    border-radius: 10px;
+    padding:10px;
+    background-color: seashell;
+    box-shadow: 4px 10px;
+
+}
+.review-box h3{
+    color:black
+}
+review-box p{
+    font-size: 20px;
+}
+.review-form {
+    text-align: center;
+    padding: 40px;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.review-form textarea {
+    height: 100px;
+}
+
+.review-form button {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.review-section {
+    width: 60%;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+}
+
+.review-section input,
+.review-section select,
+.review-section textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.review-section button {
+    background: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-section button:hover {
+    background: darkorange;
+}
+.contact h2{
+    text-align: center;
+        font-size: larger;
+        font-family: georgia, serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color :#ccc;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
